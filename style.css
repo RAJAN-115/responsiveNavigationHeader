@@ -1,0 +1,17 @@
+/* style.css */
+
+/* Basic Reset & Font */
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+}
+/* Let's see our containers clearly */
+.main-header {
+  border: 2px solid #c0392b;
+  padding: 10px;
+}
+
+.logo, .main-nav, .user-actions {
+  border: 1px dashed #2980b9;
+  padding: 5px;
+}
