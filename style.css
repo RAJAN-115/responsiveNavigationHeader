@@ -11,9 +11,22 @@ body {
   padding: 10px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
-.logo, .main-nav, .user-actions {
+.logo,
+.main-nav,
+.user-actions {
   border: 1px dashed #2980b9;
   padding: 5px;
+}
+
+/* Step 6: Vertical Alignment (align-items)
+Look closely at your header. The items are distributed well horizontally, but what about their vertical alignment? Right now, they probably look okay because they have similar heights. But what if one was much taller than the others?
+
+Let's simulate this. Add a larger font size to the logo to see the problem: */
+.logo {
+  border: 1px dashed #2980b9;
+  padding: 5px;
+  font-size: 2em; /* Make the logo taller */
 }
