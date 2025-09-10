@@ -30,3 +30,10 @@ Let's simulate this. Add a larger font size to the logo to see the problem: */
   padding: 5px;
   font-size: 2em; /* Make the logo taller */
 }
+.main-nav ul{
+  display: flex;
+  list-style-type: none;
+   margin: 0;
+  padding: 0;
+  gap: 20px; /* Add space between the list items */
+}
