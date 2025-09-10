@@ -9,6 +9,8 @@ body {
 .main-header {
   border: 2px solid #c0392b;
   padding: 10px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .logo, .main-nav, .user-actions {
